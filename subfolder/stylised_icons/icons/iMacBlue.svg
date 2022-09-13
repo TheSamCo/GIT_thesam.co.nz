@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient gradientTransform="matrix(0.95215 0 0 0.95215 80.2524 -77.9774)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="453.08" x2="455.24" y1="977.303" y2="546.846">
+<stop offset="0" stop-color="#5296ad"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="1024" width="1024" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1" vectornator:layerName="Layer 1">
+<g opacity="1">
+<g opacity="1">
+<path d="M449.695 687.356L574.305 687.356L574.305 854.803L449.695 854.803L449.695 687.356Z" fill="url(#LinearGradient)" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M436.11 838.174L587.89 838.174C593.363 838.174 597.8 842.611 597.8 848.083L597.8 848.083C597.8 853.556 593.363 857.993 587.89 857.993L436.11 857.993C430.637 857.993 426.2 853.556 426.2 848.083L426.2 848.083C426.2 842.611 430.637 838.174 436.11 838.174Z" fill="#5296ad" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+<path d="M145.213 212.938L878.787 212.938C887.709 212.938 894.942 220.17 894.942 229.092L894.942 710.067C894.942 718.989 887.709 726.222 878.787 726.222L145.213 726.222C136.291 726.222 129.058 718.989 129.058 710.067L129.058 229.092C129.058 220.17 136.291 212.938 145.213 212.938Z" fill="#5296ad" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M145.213 166.007L878.787 166.007C887.709 166.007 894.942 173.171 894.942 182.008L894.942 658.397C894.942 667.234 887.709 674.397 878.787 674.397L145.213 674.397C136.291 674.397 129.058 667.234 129.058 658.397L129.058 182.008C129.058 173.171 136.291 166.007 145.213 166.007Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M158.198 178.471L865.802 178.471C874.409 178.471 881.385 185.279 881.385 193.678L881.385 646.458C881.385 654.857 874.409 661.665 865.802 661.665L158.198 661.665C149.591 661.665 142.615 654.857 142.615 646.458L142.615 193.678C142.615 185.279 149.591 178.471 158.198 178.471Z" fill="#595959" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M509.647 171.257C509.647 169.958 510.7 168.904 512 168.904C513.3 168.904 514.353 169.958 514.353 171.257C514.353 172.557 513.3 173.611 512 173.611C510.7 173.611 509.647 172.557 509.647 171.257Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+</g>
+</svg>

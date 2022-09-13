@@ -1,0 +1,1 @@
+document.write('<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7835131405647958" crossorigin="anonymous"></script>')

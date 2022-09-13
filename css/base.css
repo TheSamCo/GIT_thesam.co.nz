@@ -1,0 +1,262 @@
+/*Page created by Sam Harford 2022*/
+/*TheSam Co / thesam.co.nz 2022*/
+
+
+/*FONTS*/
+/*Helvetica*/ /*•Built in•*/
+/*Inter- 100 Light, 400 Main, 800 Bold*/ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*Rubik Mono One*/ @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+body{
+    background-color:#e9e9e9cc;
+    font-family: 'Inter', Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+    color:black;
+    text-decoration:none;
+    overflow-x: hidden;
+    
+    
+    
+}
+h1,h2,h3,h5{
+    text-align:center;
+    margin-bottom:50px;
+    margin-top:5px;
+}
+img{
+    max-width:100%;
+    display:block;
+    min-height:50px;
+}
+.blogPageMask{
+    
+    height:170pt;
+    width:100%;
+    background-color:#c8c8c8;
+    background-size: cover;
+    background-position: center;
+}
+.comments{
+    width:40%;
+    margin:50px;
+    display:block;
+    float:left;
+}
+.onSide{
+    display:inline-block;
+    display:left;
+}
+.content{
+    max-width:70%;
+    display:inline-block;
+    float:left;
+    margin-left:50px;
+    
+}
+.rightBar{
+    display:inline-block;
+    float:right;
+    
+    margin-right:100px;
+    max-width:20%;
+}
+.pBox{
+    width:80%;
+}
+.pageBase{
+    width:100%;
+    background-color: #adadad;
+    bottom:0px;
+}
+a{
+    text-decoration:underline;
+    font-weight: bolder;
+    color:#000000;
+}
+
+/*latest Blog Posts*/
+    .latestBlogPostsScrollArea{
+        height:250px;
+        min-width:1000px;
+        display:flex;;
+        overflow-x: scroll;
+        margin:auto;
+        
+    }
+    .latestBlogPosts{
+        width:100%;
+        height:200px;
+        background-color:#adadad;
+        color:black;
+        padding-top:5px;
+        margin:10px;    
+        justify-content: center;  
+    }
+    timestamp{
+        color:#919191;
+        font-size:15px;
+    }
+    .latestBlogPosts a{
+        text-decoration: none;
+        font-weight: 300;
+        color:#000;
+    }
+    #newestPostImg{
+        max-height:100%;
+        display:inline-block;
+        float:right;
+        margin-top:0px;
+    }
+    data{
+        float:left;
+        font-size:15px;
+        max-width:35%;
+    }
+    dataTitle{
+        font-size:20px;
+    }
+
+/*navbar*/
+.navbar{
+    
+    max-width:80%;
+    min-width:10%;
+    padding:20px;
+    text-align:center;
+    max-height:70px;
+    line-height:40px;
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    font-size:20px;
+    font-weight: 400;
+    text-align:center;
+    margin:auto
+}
+navbar a{
+    color: #000001;
+    text-decoration:none;
+    }
+navSelection{
+    height:50px;
+    color: #000001;
+    
+}
+navSelection:hover{
+    opacity:0.5;
+}
+navSelection a{
+    text-decoration:none;
+    color:black;
+}
+
+.mobileNavbarMenu{
+    width:80%;
+    background-color:#5f5f5f;
+    color:#e6e6e6;
+    padding:15px;
+    box-shadow: 5px 5px 5px #000;
+    margin-left:20px;
+    margin-top:0px;
+}
+.mobileNavbarMenu a{
+    text-decoration:none;
+    font-weight:400;
+}
+#mobileShow{
+    display:none;
+    text-decoration:none;
+    font-weight:400;
+    margin:10px;
+}
+mobileShow{
+    display:none;
+}
+
+/*footer*/
+.footer{
+    background-color:#dbdbdb;
+    width:100%;
+    color:#919191;
+}
+
+
+/*Device Appearances*/
+    /*Dark Mode*/
+    @media (prefers-color-scheme: dark) {
+        body{
+            background-color:#151515;
+            color:#e6e6e6;
+        }
+        .navbar{
+            color:#f5f5f5;
+        }
+        #lightModeAsset{
+            display:none;
+        }
+        #darkModeAsset{
+            display:block;
+        }
+        .navbar a{
+            color: #f5f5f5;
+            
+        }
+        .navSelection{
+            color: #f5f5f5;
+        }
+        .footer{
+            background-color:#000000;
+            color:#5f5f5f;
+            display:inline;
+            float:right;
+        }
+        a{
+            color:#ffffff;
+        }
+    }
+    /*Light Mode*/
+    @media (prefers-color-scheme: light) {
+        #lightModeAsset{
+            display:block;
+        }
+        #darkModeAsset{
+            display:none;
+        }
+    }
+    /*Phones + tablets*/
+    @media (max-width: 1000px) {
+        .rightBar {
+            display: none;
+        }
+        .pBox{
+            width:95%;
+            text-align:left;
+        }
+        .content{
+            max-width:100%;
+            margin:20px;
+        }
+        .comments{
+            width:70%;
+        }
+        }
+        @media (max-width: 600px) {
+            navSelection{
+                display:none;
+            }
+            #mobileNav{
+                display:block;       
+            }
+            #mobileShow{
+                display:block;
+            }
+            
+            }
+    /*PCs*/
+    @media (min-width: 1000px) {
+        #mobileNaDisplay{
+            display: none;
+        }
+        }
